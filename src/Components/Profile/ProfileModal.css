@@ -1,0 +1,11 @@
+.hideScrollBar::-webkit-scrollbar{
+ 
+  scrollbar-width: none;    /* Firefox */
+  scrollbar-color: transparent transparent;
+  }
+
+  @-moz-document url-prefix() { /* Disable scrollbar Firefox */
+    html{
+      scrollbar-width: none;
+    }
+  }
